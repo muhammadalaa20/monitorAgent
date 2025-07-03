@@ -16,7 +16,7 @@ To run this project run
 
 ## Notes
 
-Don't forget to change the ip adress of your fetch in the agent.js before packaging from localhost to the machine running the server.js
+Don't forget to change the ip address of your fetch in the agent.js before packaging from localhost to ip address of the machine running the server.js
 
 ``` bash
 
