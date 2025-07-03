@@ -33,7 +33,7 @@ setInterval(() => {
     network_interfaces: os.networkInterfaces(), // optional
   };
 
-  fetch("http://192.168.1.7:5000/api/devices", {
+  fetch("http://localhost:5000/api/devices", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(payload),
